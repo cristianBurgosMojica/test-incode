@@ -15,11 +15,12 @@ allprojects {
     repositories {
         google()
         mavenCentral()
+        jcenter()
         maven {
           url "https://repo.incode.com/artifactory/libs-incode-welcome"
           credentials {
-            username = "bancosol.admin@incode.com"
-            password = "IncodeDashboard123_B0ncOS0l257!"
+            username = "user"
+            password = "pass"
           }
         }
     }

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:onboarding_flutter_wrapper/onboarding_flutter_wrapper.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,6 +11,19 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
+    // IncodeOnboardingSdk.init(
+    //   apiKey: 'YOUR_API_KEY',
+    //   apiUrl: 'YOUR_API_URL',
+    //   testMode: false,
+    //   onError: (String error) {
+    //     print('Incode init failed: $error');
+    //   },
+    //   onSuccess: () {
+    //     // Update UI, safe to start Onboarding
+    //     print('Incode initialize successfully!');
+    //   },
+    // );
+
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
